@@ -19,3 +19,8 @@ export {};
 const output = document.getElementById("output-container");
 
 // your code will start here.
+
+for (let i = 0; i < 12; i++) {
+    if (i % 2 == 1) continue;
+    alert(i); 
+  }
